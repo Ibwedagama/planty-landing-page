@@ -4,6 +4,9 @@
     <BaseContainer>
       <TheHero />
     </BaseContainer>
+    <BaseContainer>
+      <PlantCare />
+    </BaseContainer>
   </main>
 </template>
 
