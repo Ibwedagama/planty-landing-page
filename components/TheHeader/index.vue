@@ -1,7 +1,7 @@
 <template>
   <header class="">
     <div
-      class="container mx-auto flex min-h-[47px] items-center justify-between px-4 pt-6 md:min-h-[93px] md:px-0"
+      class="container mx-auto flex min-h-[47px] items-center justify-between px-4 pt-6 md:min-h-[93px] xl:px-0"
     >
       <NuxtLink to="/">
         <img
@@ -12,7 +12,7 @@
           class="md:h-[35px] md:w-[123px]"
         />
       </NuxtLink>
-      <nav class="hidden md:block">
+      <nav class="hidden lg:block">
         <ul class="flex items-center">
           <li
             v-for="link in navbarLinks"
@@ -50,14 +50,10 @@
             <BaseIcon icon="/icons/cart.svg" :size="18" class="md:scale-125" />
           </li>
           <li
-            class="ml-10 flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200 md:h-10 md:w-10"
+            class="ml-10 flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200 lg:hidden"
             title="Menu"
           >
-            <BaseIcon
-              icon="/icons/hamburger.svg"
-              :size="18"
-              class="md:hidden"
-            />
+            <BaseIcon icon="/icons/hamburger.svg" :size="18" />
           </li>
         </ul>
       </nav>
