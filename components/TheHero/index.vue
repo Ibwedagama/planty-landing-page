@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="grid min-h-[330px] w-full grid-cols-2 px-4 pt-6 md:min-h-[766px] xl:px-0"
-  >
+  <section class="grid min-h-[330px] w-full grid-cols-2 pt-6 md:min-h-[766px]">
     <div
       class="relative -mr-[2rem] flex flex-col justify-center py-5 md:-mr-[4rem] xl:mr-0"
     >
@@ -11,13 +9,13 @@
         Best house plants varieties.
       </h1>
       <div class="bg-white p-2">
-        <h2 class="mb-3 text-sm font-semibold md:mb-6 md:text-2xl">
+        <h2 class="mb-4 text-sm font-semibold md:mb-6 md:text-2xl">
           Beautiful living greenery for homes and offices
         </h2>
-        <p class="mb-2.5 text-xs md:mb-4 md:text-base">
+        <BaseButton>Shop Now</BaseButton>
+        <p class="mt-6 text-xs md:mb-4 md:text-base">
           Wer've been mentioned in the press
         </p>
-        <BaseButton>Shop Now</BaseButton>
         <div class="mt-6 flex w-fit md:mt-14">
           <img
             src="/image/Bloomberg.svg"
@@ -36,7 +34,7 @@
         </div>
       </div>
     </div>
-    <div class="-mr-[1rem]">
+    <div class="-mr-[1rem] md:-mr-[2rem] xl:mr-0">
       <picture>
         <source
           media="(min-width:768px)"
@@ -51,7 +49,7 @@
           alt="two green plant with wood pots"
           height="284"
           width="376"
-          class="h-full w-full object-cover"
+          class="h-full w-full object-cover object-right"
         />
       </picture>
     </div>
