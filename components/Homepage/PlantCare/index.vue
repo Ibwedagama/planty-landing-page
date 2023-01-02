@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section class="py-2 md:grid md:grid-cols-2 md:gap-10 md:py-10 xl:py-20">
     <p

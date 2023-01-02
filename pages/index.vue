@@ -3,10 +3,9 @@
   <main>
     <BaseContainer>
       <TheHero />
-    </BaseContainer>
-    <BaseContainer>
       <HomepagePlantCare />
     </BaseContainer>
+    <HomepagePlantProcess />
   </main>
 </template>
 
