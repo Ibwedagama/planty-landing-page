@@ -1,7 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <main class="container mx-auto">
-    <TheHero />
+  <main>
+    <BaseContainer>
+      <TheHero />
+    </BaseContainer>
   </main>
 </template>
 
