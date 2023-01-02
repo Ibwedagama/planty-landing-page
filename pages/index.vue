@@ -5,7 +5,7 @@
       <TheHero />
     </BaseContainer>
     <BaseContainer>
-      <PlantCare />
+      <HomepagePlantCare />
     </BaseContainer>
   </main>
 </template>
