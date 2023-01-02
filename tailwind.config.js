@@ -2,7 +2,12 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        quicksand: ["Quicksand", "cursive"],
+        lora: ["Lora", "cursive"],
+      },
+    },
   },
   plugins: [],
-}
+};

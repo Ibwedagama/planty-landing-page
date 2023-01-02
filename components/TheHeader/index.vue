@@ -14,10 +14,15 @@
       </NuxtLink>
       <nav class="hidden md:block">
         <ul class="flex items-center">
-          <li>Plants</li>
-          <li class="ml-10">For Offices</li>
-          <li class="ml-10">Plant Care</li>
-          <li class="ml-10">About</li>
+          <li
+            v-for="link in navbarLinks"
+            :key="link.id"
+            class="ml-10 font-quicksand"
+          >
+            <NuxtLink :to="link.link">
+              {{ link.label }}
+            </NuxtLink>
+          </li>
         </ul>
       </nav>
       <nav>
@@ -62,10 +67,13 @@
 
 <script setup lang="ts">
 import { defineComponent } from "vue";
+import { NAVBAR_LINKS } from "~~/utils/constant";
 
 defineComponent({
   name: "TheHeader",
 });
+
+const navbarLinks = useState("navbarLinks", () => NAVBAR_LINKS);
 </script>
 
 <style scoped></style>
