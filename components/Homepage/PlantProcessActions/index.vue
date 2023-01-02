@@ -39,29 +39,4 @@ interface Props {
 }
 
 const props = defineProps<Props>();
-
-// export default {
-//   props: {
-//     items: {
-//       type: Array,
-//       default: () => [],
-//     },
-//   },
-//   setup() {
-//     const swiper = useSwiper();
-//     const swiperSlide = useSwiperSlide();
-
-//     const activeIndexTitle = computed(() => {
-//       activeItem = props.items.filter((item) => item.id === swiper.activeIndex);
-
-//       return activeItem.label;
-//     });
-
-//     return {
-//       swiper,
-//       swiperSlide,
-//       activeIndexTitle,
-//     };
-//   },
-// };
 </script>
