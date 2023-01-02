@@ -1,13 +1,7 @@
 <template>
-  <h1 class="font-bold text-red-500">Hello World</h1>
+  <h1>Hello World</h1>
 </template>
 
-<script>
-export default {
+<script setup lang="ts"></script>
 
-}
-</script>
-
-<style>
-
-</style>
+<style scoped></style>
