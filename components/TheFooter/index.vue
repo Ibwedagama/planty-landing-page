@@ -31,9 +31,11 @@
           <nav
             class="mb-8 lg:col-span-3 lg:mb-0 lg:max-w-fit lg:justify-self-center"
           >
-            <ul class="grid grid-cols-1 gap-11 text-center lg:grid-cols-3">
+            <ul
+              class="grid grid-cols-1 justify-items-center gap-11 lg:grid-cols-3"
+            >
               <li class="group w-fit">
-                <NuxtLink to="/">
+                <NuxtLink to="/" class="w-fit text-center">
                   <p>Help</p>
                   <div
                     class="h-2 w-0 border-b-2 border-black transition-all duration-200 ease-out group-hover:w-full"
@@ -41,7 +43,7 @@
                 </NuxtLink>
               </li>
               <li class="group w-fit">
-                <NuxtLink to="/" class="w-fit">
+                <NuxtLink to="/" class="w-fit text-center">
                   <p>Contact Us</p>
                   <div
                     class="h-2 w-0 border-b-2 border-black transition-all duration-200 ease-out group-hover:w-full"
@@ -49,7 +51,7 @@
                 </NuxtLink>
               </li>
               <li class="group w-fit">
-                <NuxtLink to="/" class="w-fit">
+                <NuxtLink to="/" class="w-fit text-center">
                   <p>Privacy & Terms</p>
                   <div
                     class="h-2 w-0 border-b-2 border-black transition-all duration-200 ease-out group-hover:w-full"
