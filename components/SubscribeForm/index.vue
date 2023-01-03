@@ -4,7 +4,6 @@
     @submit.prevent
   >
     <input
-      id="subscribe-input"
       type="text"
       name="subscribe-input"
       placeholder="Your email"
