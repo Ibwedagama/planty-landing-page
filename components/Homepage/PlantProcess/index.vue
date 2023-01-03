@@ -9,6 +9,7 @@
               :src="item.image"
               :alt="item.label"
               class="h-[300px] w-full object-cover object-center md:h-[550px]"
+              loading="lazy"
             />
           </picture>
         </swiper-slide>

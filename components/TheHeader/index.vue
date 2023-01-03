@@ -8,6 +8,7 @@
           width="73"
           height="22"
           class="md:h-[35px] md:w-[123px]"
+          loading="eager"
         />
       </NuxtLink>
       <nav class="hidden lg:block">

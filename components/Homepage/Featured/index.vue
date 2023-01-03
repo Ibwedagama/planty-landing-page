@@ -32,6 +32,7 @@
               :src="item.image"
               :alt="item.label"
               class="h-[350px] w-full object-cover object-center md:min-h-[577px]"
+              loading="lazy"
             />
           </picture>
 

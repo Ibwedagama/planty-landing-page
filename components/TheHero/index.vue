@@ -25,6 +25,7 @@
             width="85"
             height="20"
             class="pt-1 md:h-10 md:w-full"
+            loading="eager"
           />
           <img
             src="/image/Forbes.svg"
@@ -32,6 +33,7 @@
             width="50"
             height="20"
             class="ml-4 md:ml-20 md:h-8 md:w-full"
+            loading="eager"
           />
         </div>
       </div>
@@ -52,6 +54,7 @@
           height="284"
           width="376"
           class="h-full w-full object-cover object-right"
+          loading="eager"
         />
       </picture>
     </div>

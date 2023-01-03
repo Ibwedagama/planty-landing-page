@@ -26,6 +26,7 @@
               width="156"
               height="45"
               class="mx-auto mb-8 lg:mb-0"
+              loading="lazy"
             />
           </NuxtLink>
           <nav
