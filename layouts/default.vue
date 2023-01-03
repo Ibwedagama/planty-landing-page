@@ -14,6 +14,16 @@
             {{ navigation.label }}
           </NuxtLink>
         </li>
+        <li class="mt-auto flex justify-center">
+          <img
+            src="/image/logo.svg"
+            alt="Planty Logo"
+            width="156"
+            height="46"
+            loading="lazy"
+            class="object-contain"
+          />
+        </li>
       </ul>
     </aside>
   </div>
