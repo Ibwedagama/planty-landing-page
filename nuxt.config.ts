@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   ssr: false,
   app: {
     head: {
+      htmlAttrs: {
+        lang: "en",
+      },
       title: "Planty - House Plants",
       meta: [
         { "http-equiv": "Content-Type", content: "text/html; charset=utf-8" },
