@@ -65,11 +65,13 @@
           >
             <BaseIcon icon="/icons/cart.svg" :size="18" class="md:scale-125" />
           </li>
-          <li
-            class="ml-10 flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200 lg:hidden"
-            title="Menu"
-          >
-            <BaseIcon icon="/icons/hamburger.svg" :size="18" />
+          <li class="lg:hidden" title="Menu">
+            <label
+              for="my-drawer"
+              class="drawer-button ml-10 flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200"
+            >
+              <BaseIcon icon="/icons/hamburger.svg" :size="18" />
+            </label>
           </li>
         </ul>
       </nav>
