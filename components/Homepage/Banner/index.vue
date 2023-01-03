@@ -6,7 +6,7 @@
       <source media="(min-width:769px)" srcset="/image/banner-1-desktop.webp" />
       <img
         src="/image/banner-1.webp"
-        alt=""
+        alt="a table full of plants near a window"
         class="h-full w-full object-cover object-center"
       />
     </picture>
@@ -14,7 +14,7 @@
       <source media="(min-width:769px)" srcset="/image/banner-2-desktop.webp" />
       <img
         src="/image/banner-2.webp"
-        alt=""
+        alt="a man holding a plant"
         class="h-full w-full object-cover object-center"
       />
     </picture>
@@ -24,7 +24,7 @@
       <source media="(min-width:769px)" srcset="/image/banner-3-desktop.webp" />
       <img
         src="/image/banner-3.webp"
-        alt=""
+        alt="three house plants with different colors in front of white wall"
         class="h-full w-full object-cover object-center"
       />
       <div class="absolute inset-0 px-6 py-4 md:py-6 lg:px-28 lg:py-16">
