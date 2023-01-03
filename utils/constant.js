@@ -47,25 +47,29 @@ export const FEATURED_PLANTS = [
     id: 1,
     label: "Fiddle-leaf Fig",
     price: "$110.99",
-    image: "/image/featured-1.png",
+    image: "/image/featured-1.webp",
+    imageDekstop: "/image/featured-1-dekstop.webp",
   },
   {
     id: 2,
     label: "Aloe Vera",
     price: "$110.99",
-    image: "/image/featured-2.png",
+    image: "/image/featured-2.webp",
+    imageDekstop: "/image/featured-2-dekstop.webp",
   },
   {
     id: 3,
     label: "Strelitzia Nicolai",
     price: "$110.99",
-    image: "/image/featured-3.png",
+    image: "/image/featured-3.webp",
+    imageDekstop: "/image/featured-3-dekstop.webp",
   },
   {
     id: 4,
     label: "Ficus Microcarpa",
     price: "$110.99",
-    image: "/image/featured-4.png",
+    image: "/image/featured-4.webp",
+    imageDekstop: "/image/featured-4-dekstop.webp",
   },
 ];
 

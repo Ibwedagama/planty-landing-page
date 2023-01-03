@@ -8,12 +8,12 @@
         @swiper="onSwiper"
       >
         <swiper-slide v-for="item in state.processItems" :key="item.id">
-          <picture class="h-[300px] w-full md:h-[550px]">
+          <picture>
             <source media="(min-width:768px)" :srcset="item.imageDekstop" />
             <img
               :src="item.image"
               :alt="item.label"
-              class="h-full w-full object-cover object-center"
+              class="h-[300px] w-full object-cover object-center md:h-[550px]"
             />
           </picture>
         </swiper-slide>

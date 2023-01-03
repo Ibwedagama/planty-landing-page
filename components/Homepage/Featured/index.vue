@@ -26,11 +26,15 @@
         class="md:!w-fit"
       >
         <figure class="min-h-[350px] w-[223px] md:min-h-[577px] md:w-[368px]">
-          <img
-            :src="item.image"
-            :alt="item.label"
-            class="h-[350px] w-full object-cover object-center md:min-h-[577px]"
-          />
+          <picture>
+            <source media="(min-width:768px)" :srcset="item.imageDekstop" />
+            <img
+              :src="item.image"
+              :alt="item.label"
+              class="h-[350px] w-full object-cover object-center md:min-h-[577px]"
+            />
+          </picture>
+
           <figcaption class="flex justify-between py-4">
             <span>{{ item.label }}</span>
             <span>{{ item.price }}</span>
