@@ -1,8 +1,6 @@
 <template>
-  <header class="">
-    <BaseContainer
-      class="flex min-h-[47px] items-center justify-between pt-6 md:min-h-[93px]"
-    >
+  <header class="min-h-[47px] md:min-h-[93px]">
+    <BaseContainer class="flex items-center justify-between pt-6">
       <NuxtLink to="/">
         <img
           src="/image/logo.svg"
@@ -28,7 +26,7 @@
           </li>
         </ul>
       </nav>
-      <nav>
+      <section>
         <ul class="flex items-center">
           <li
             class="flex h-6 w-6 cursor-pointer items-center justify-center rounded-md transition-colors ease-in hover:bg-gray-200 md:h-10 md:w-10"
@@ -74,7 +72,7 @@
             </label>
           </li>
         </ul>
-      </nav>
+      </section>
     </BaseContainer>
   </header>
 </template>
@@ -89,5 +87,3 @@ defineComponent({
 
 const navbarLinks = useState("navbarLinks", () => NAVBAR_LINKS);
 </script>
-
-<style scoped></style>
