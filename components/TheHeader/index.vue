@@ -37,12 +37,31 @@
               class="md:scale-125"
             />
           </li>
-          <li
+          <li class="dropdown-hover dropdown dropdown-end">
+            <label
+              tabindex="0"
+              class="ml-10 flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200 md:h-10 md:w-10"
+            >
+              <BaseIcon
+                icon="/icons/user.svg"
+                :size="18"
+                class="md:scale-125"
+              />
+            </label>
+            <ul
+              tabindex="0"
+              class="dropdown-content menu ml-10 w-52 bg-base-100 p-2 shadow"
+            >
+              <li><NuxtLink to="#">Your Profile</NuxtLink></li>
+              <li><NuxtLink to="#">Log out</NuxtLink></li>
+            </ul>
+          </li>
+          <!-- <li
             class="ml-10 flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200 md:h-10 md:w-10"
             title="User Profile"
           >
             <BaseIcon icon="/icons/user.svg" :size="18" class="md:scale-125" />
-          </li>
+          </li> -->
           <li
             class="ml-10 flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200 md:h-10 md:w-10"
             title="Your Cart"
