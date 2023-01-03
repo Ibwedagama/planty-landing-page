@@ -1,6 +1,8 @@
 <template>
   <section class="mt-6 flex items-center justify-between xl:mt-14">
-    <p class="text-xs">STEP {{ swiper.activeIndex + 1 }}</p>
+    <span class="text-xs font-semibold lg:text-sm"
+      >STEP {{ swiper.activeIndex + 1 }}</span
+    >
     <h1 class="text-md font-lora md:text-2xl">
       {{ props.items[swiper.activeIndex].label }}
     </h1>
