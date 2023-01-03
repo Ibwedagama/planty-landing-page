@@ -8,6 +8,7 @@
     <HomepagePlantProcess />
     <BaseContainer>
       <HomepageFeatured />
+      <HomepageTestimonial />
     </BaseContainer>
   </main>
 </template>

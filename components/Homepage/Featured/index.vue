@@ -10,7 +10,7 @@
       <BaseButton class="ml-6 h-fit">See All</BaseButton>
     </div>
   </section>
-  <section class="mb-32">
+  <section>
     <swiper
       :initial-slide="1"
       :slides-per-view="1.5"

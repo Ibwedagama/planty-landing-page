@@ -65,3 +65,41 @@ export const FEATURED_PLANTS = [
     image: "/image/featured-4.png",
   },
 ];
+
+export const TESTIMONIALS = [
+  {
+    id: 1,
+    name: "Lance Jarvis",
+    location: "London, UK",
+    message:
+      "We have been using product for last one year, and I have to say that it has transformed the way we do business. Thank you for awesome service.",
+  },
+  {
+    id: 2,
+    name: "Juliet Wright",
+    location: "Sweden",
+    message:
+      "It has changed the way I used the website. Product lets you create anything you envision and it does it so easy and flawless. I can't imagine not working with the service.",
+  },
+  {
+    id: 3,
+    name: "Michael D",
+    location: "Austin, Texas",
+    message:
+      "Insights from service drove 30% lift in our conversions, this product service is essential for your company growth strategy.",
+  },
+  {
+    id: 4,
+    name: "Kylie Lutz",
+    location: "Paris, France",
+    message:
+      "The company really helped with my personal branding - everything from conception to execution was amazing and super professional. Looking forwards for upgradation.",
+  },
+  {
+    id: 5,
+    name: "Mark Twin",
+    location: "Berlin, Germany",
+    message:
+      "Best company I have ever deal with online! Quick delivery and excellent customer service. Will definetly upgrade the service.",
+  },
+];
