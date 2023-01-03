@@ -17,10 +17,13 @@
           <li
             v-for="link in navbarLinks"
             :key="link.id"
-            class="ml-10 font-quicksand"
+            class="group ml-10 font-quicksand"
           >
-            <NuxtLink :to="link.link">
-              {{ link.label }}
+            <NuxtLink :to="link.link" class="">
+              <p>{{ link.label }}</p>
+              <div
+                class="h-2 w-0 border-b-2 border-black transition-all duration-200 ease-out group-hover:w-full"
+              />
             </NuxtLink>
           </li>
         </ul>
@@ -28,7 +31,7 @@
       <nav>
         <ul class="flex items-center">
           <li
-            class="flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200 md:h-10 md:w-10"
+            class="flex h-6 w-6 cursor-pointer items-center justify-center rounded-md transition-colors ease-in hover:bg-gray-200 md:h-10 md:w-10"
             title="Search"
           >
             <BaseIcon
@@ -37,10 +40,10 @@
               class="md:scale-125"
             />
           </li>
-          <li class="dropdown-hover dropdown dropdown-end">
+          <li class="dropdown-hover dropdown-end dropdown">
             <label
               tabindex="0"
-              class="ml-10 flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200 md:h-10 md:w-10"
+              class="ml-10 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md transition-colors ease-in hover:bg-gray-200 md:h-10 md:w-10"
             >
               <BaseIcon
                 icon="/icons/user.svg"
@@ -56,14 +59,8 @@
               <li><NuxtLink to="#">Log out</NuxtLink></li>
             </ul>
           </li>
-          <!-- <li
-            class="ml-10 flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200 md:h-10 md:w-10"
-            title="User Profile"
-          >
-            <BaseIcon icon="/icons/user.svg" :size="18" class="md:scale-125" />
-          </li> -->
           <li
-            class="ml-10 flex h-6 w-6 items-center justify-center rounded-md hover:bg-gray-200 md:h-10 md:w-10"
+            class="ml-10 flex h-6 w-6 cursor-pointer items-center justify-center rounded-md transition-colors ease-in hover:bg-gray-200 md:h-10 md:w-10"
             title="Your Cart"
           >
             <BaseIcon icon="/icons/cart.svg" :size="18" class="md:scale-125" />
