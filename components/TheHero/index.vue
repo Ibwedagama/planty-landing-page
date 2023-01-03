@@ -1,5 +1,7 @@
 <template>
-  <section class="grid min-h-[330px] w-full grid-cols-2 pt-6 md:min-h-[766px]">
+  <section
+    class="grid min-h-[330px] w-full grid-cols-2 pt-6 md:min-h-[718px] lg:min-h-[694px] xl:min-h-[825px]"
+  >
     <div
       class="relative -mr-[2rem] flex flex-col justify-center py-5 md:-mr-[4rem] xl:mr-0"
     >
