@@ -6,6 +6,9 @@
       <HomepagePlantCare />
     </BaseContainer>
     <HomepagePlantProcess />
+    <BaseContainer>
+      <HomepageFeatured />
+    </BaseContainer>
   </main>
 </template>
 

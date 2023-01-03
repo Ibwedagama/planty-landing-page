@@ -38,3 +38,30 @@ export const PLANT_PROCESS_IMAGES = [
     image: "/image/process-3.jpg",
   },
 ];
+
+export const FEATURED_PLANTS = [
+  {
+    id: 1,
+    label: "Fiddle-leaf Fig",
+    price: "$110.99",
+    image: "/image/featured-1.png",
+  },
+  {
+    id: 2,
+    label: "Aloe Vera",
+    price: "$110.99",
+    image: "/image/featured-2.png",
+  },
+  {
+    id: 3,
+    label: "Strelitzia Nicolai",
+    price: "$110.99",
+    image: "/image/featured-3.png",
+  },
+  {
+    id: 4,
+    label: "Ficus Microcarpa",
+    price: "$110.99",
+    image: "/image/featured-4.png",
+  },
+];

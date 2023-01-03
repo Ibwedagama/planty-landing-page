@@ -1,5 +1,5 @@
 <template>
-  <section class="mb-36">
+  <section>
     <BaseContainer>
       <swiper
         :slides-per-view="1"
