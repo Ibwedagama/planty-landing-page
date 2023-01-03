@@ -19,7 +19,7 @@
       <BaseContainer>
         <div class="grid grid-cols-1 lg:grid-cols-5 lg:items-center lg:gap-12">
           <SubscribeForm class="mb-8 lg:hidden" />
-          <NuxtLink to="/">
+          <NuxtLink to="/" aria-label="To Homepage">
             <img
               src="/image/logo.svg"
               alt="Planty Logo"
@@ -64,17 +64,17 @@
           <nav class="py-8">
             <ul class="grid grid-cols-3 place-items-center">
               <li>
-                <NuxtLink to="/">
+                <NuxtLink to="/" aria-label="Facebook">
                   <BaseIcon icon="/icons/facebook.svg" :size="30" />
                 </NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/">
+                <NuxtLink to="/" aria-label="Twitter">
                   <BaseIcon icon="/icons/twitter.svg" :size="30" />
                 </NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/">
+                <NuxtLink to="/" aria-label="Instagram">
                   <BaseIcon icon="/icons/instagram.svg" :size="30" />
                 </NuxtLink>
               </li>

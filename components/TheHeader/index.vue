@@ -1,7 +1,7 @@
 <template>
   <header class="min-h-[47px] md:min-h-[93px]">
     <BaseContainer class="flex items-center justify-between pt-6">
-      <NuxtLink to="/">
+      <NuxtLink to="/" aria-label="To Homepage">
         <img
           src="/image/logo.svg"
           alt="Planty Logo"
