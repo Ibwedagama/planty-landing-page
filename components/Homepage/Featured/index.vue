@@ -1,6 +1,6 @@
 <template>
   <section class="-mt-32 py-7 md:-mt-[300px] md:py-10">
-    <span class="mb-5 block text-xs">OUR SHOP</span>
+    <span class="mb-5 block text-xs font-semibold lg:text-base">OUR SHOP</span>
     <div class="flex items-end justify-between">
       <h1
         class="font-lora text-xl leading-6 md:text-2xl md:leading-normal xl:text-4xl xl:leading-relaxed"
