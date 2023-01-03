@@ -32,11 +32,30 @@
             class="mb-8 lg:col-span-3 lg:mb-0 lg:max-w-fit lg:justify-self-center"
           >
             <ul class="grid grid-cols-1 gap-11 text-center lg:grid-cols-3">
-              <li>
-                <NuxtLink to="/">Help</NuxtLink>
+              <li class="group w-fit">
+                <NuxtLink to="/">
+                  <p>Help</p>
+                  <div
+                    class="h-2 w-0 border-b-2 border-black transition-all duration-200 ease-out group-hover:w-full"
+                  />
+                </NuxtLink>
               </li>
-              <NuxtLink to="/">Contact Us</NuxtLink>
-              <NuxtLink to="/">Privacy & Terms</NuxtLink>
+              <li class="group w-fit">
+                <NuxtLink to="/" class="w-fit">
+                  <p>Contact Us</p>
+                  <div
+                    class="h-2 w-0 border-b-2 border-black transition-all duration-200 ease-out group-hover:w-full"
+                  />
+                </NuxtLink>
+              </li>
+              <li class="group w-fit">
+                <NuxtLink to="/" class="w-fit">
+                  <p>Privacy & Terms</p>
+                  <div
+                    class="h-2 w-0 border-b-2 border-black transition-all duration-200 ease-out group-hover:w-full"
+                  />
+                </NuxtLink>
+              </li>
             </ul>
           </nav>
           <div class="h-1 border-b-2 border-gray-300 lg:hidden" />
