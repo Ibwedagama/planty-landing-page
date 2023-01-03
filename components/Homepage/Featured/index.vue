@@ -1,5 +1,5 @@
 <template>
-  <section class="-mt-24 py-6 md:-mt-[300px]">
+  <section class="-mt-32 py-7 md:-mt-[300px]">
     <span class="mb-5 block text-xs md:text-xl">OUR SHOP</span>
     <div class="flex items-end justify-between">
       <h1
