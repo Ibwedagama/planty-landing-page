@@ -1,12 +1,12 @@
 <template>
   <section class="-mt-32 py-7 md:-mt-[300px] md:py-10">
-    <span class="mb-5 block text-xs font-semibold lg:text-base">OUR SHOP</span>
+    <h1 class="mb-5 block text-xs font-semibold lg:text-base">OUR SHOP</h1>
     <div class="flex items-end justify-between">
-      <h1
+      <h2
         class="font-lora text-xl leading-6 md:text-2xl md:leading-normal xl:text-4xl xl:leading-relaxed"
       >
         Here are the best seller <br />from our varieties
-      </h1>
+      </h2>
       <BaseButton class="ml-6 h-fit">See All</BaseButton>
     </div>
   </section>
