@@ -81,6 +81,18 @@ export default defineNuxtConfig({
           rel: "manifest",
           href: "/site.webmanifest",
         },
+        {
+          rel: "preload",
+          href: "/image/hero-image-mobile.webp",
+          as: "image",
+          media: "(max-width: 425px)",
+        },
+        {
+          rel: "preload",
+          href: "/image/hero-image-desktop.webp",
+          as: "image",
+          media: "(min-width: 425.1px)",
+        },
       ],
     },
   },
