@@ -10,7 +10,7 @@
       >
         Best house plants varieties.
       </h1>
-      <div class="bg-white p-2">
+      <div class="-ml-4 bg-white p-4 shadow-xl xl:ml-0 xl:shadow-none">
         <h2 class="mb-4 text-sm font-semibold md:mb-6 md:text-2xl">
           Beautiful living greenery for homes and offices
         </h2>
