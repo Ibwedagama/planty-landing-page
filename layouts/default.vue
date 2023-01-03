@@ -6,7 +6,7 @@
       <slot />
       <TheFooter />
     </div>
-    <aside class="drawer-side">
+    <aside class="drawer-side lg:hidden">
       <label for="my-drawer" class="drawer-overlay" />
       <ul class="menu w-80 bg-base-100 p-4 text-base-content">
         <li v-for="navigation in navigationLinks" :key="navigation.id">
