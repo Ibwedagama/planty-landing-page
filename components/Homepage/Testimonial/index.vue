@@ -33,10 +33,15 @@
       <swiper
         :slides-per-view="1"
         :space-between="16"
-        :modules="[EffectFade]"
+        :modules="[EffectFade, Autoplay]"
         effect="fade"
         :fade-effect="{ crossFade: true }"
         :speed="250"
+        :autoplay="{
+          delay: 3000,
+          disableOnInteraction: false,
+        }"
+        @slide-change="onSlideChange"
       >
         <swiper-slide v-for="testimonial in testimonials" :key="testimonial.id">
           <blockquote
@@ -46,7 +51,10 @@
           </blockquote>
         </swiper-slide>
         <template #container-end>
-          <HomepageTestimonialNavigation :testimonials="testimonials" />
+          <HomepageTestimonialNavigation
+            :testimonials="testimonials"
+            :active-index="activeIndex"
+          />
         </template>
       </swiper>
     </section>
@@ -55,12 +63,16 @@
 
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from "swiper/vue";
-import { EffectFade } from "swiper";
+import { EffectFade, Autoplay } from "swiper";
+import { TESTIMONIALS } from "~/utils/constant";
 
 import "swiper/css";
 import "swiper/css/effect-fade";
 
-import { TESTIMONIALS } from "~~/utils/constant";
-
 const testimonials = useState("testimonials", () => TESTIMONIALS);
+const activeIndex = ref<number>(0);
+
+const onSlideChange = (swiper: any) => {
+  activeIndex.value = swiper.realIndex;
+};
 </script>

@@ -2,10 +2,10 @@
   <div class="mt-14 flex min-h-[50px] items-center justify-between">
     <div>
       <h2 class="text-md font-lora font-semibold md:text-xl">
-        {{ props.testimonials[swiper.activeIndex].name }}.
+        {{ props.testimonials[props.activeIndex].name }}.
       </h2>
       <span class="md:text-md text-sm tracking-wider">
-        {{ props.testimonials[swiper.activeIndex].location }}
+        {{ props.testimonials[props.activeIndex].location }}
       </span>
     </div>
     <div class="flex">
@@ -49,6 +49,7 @@ interface Testimonial {
 
 interface Props {
   testimonials: Testimonial[];
+  activeIndex: number;
 }
 
 const props = defineProps<Props>();
