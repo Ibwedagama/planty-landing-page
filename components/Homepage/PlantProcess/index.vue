@@ -1,12 +1,7 @@
 <template>
   <section>
     <BaseContainer>
-      <swiper
-        :slides-per-view="1"
-        :space-between="40"
-        class="cursor-grab"
-        @swiper="onSwiper"
-      >
+      <swiper :slides-per-view="1" :space-between="40" class="cursor-grab">
         <swiper-slide v-for="item in state.processItems" :key="item.id">
           <picture>
             <source media="(min-width:768px)" :srcset="item.imageDekstop" />
@@ -45,12 +40,7 @@ export default {
   setup() {
     const state = reactive({ processItems: [...PLANT_PROCESS_IMAGES] });
 
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-
     return {
-      onSwiper,
       state,
     };
   },
