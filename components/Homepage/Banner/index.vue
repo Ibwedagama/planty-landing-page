@@ -19,7 +19,7 @@
       />
     </picture>
     <picture
-      class="relative col-span-2 h-[200px] md:col-span-6 md:h-[280px] lg:col-span-5 lg:h-[500px]"
+      class="relative col-span-2 h-[275px] md:col-span-6 md:h-[350px] lg:col-span-5 lg:h-[500px]"
     >
       <source media="(min-width:769px)" srcset="/image/banner-3-desktop.webp" />
       <img
