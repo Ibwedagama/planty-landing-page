@@ -3,12 +3,12 @@
   <main>
     <BaseContainer>
       <TheHero />
-      <HomepagePlantCare />
+      <LazyHomepagePlantCare />
     </BaseContainer>
-    <HomepagePlantProcess />
+    <LazyHomepagePlantProcess />
     <BaseContainer>
-      <HomepageFeatured />
-      <HomepageTestimonial />
+      <LazyHomepageFeatured />
+      <LazyHomepageTestimonial />
     </BaseContainer>
   </main>
 </template>
