@@ -28,7 +28,7 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:image",
-          content: "/thumbnail.webp",
+          content: "/thumbnail.jpg",
         },
         {
           property: "og:title",
@@ -44,7 +44,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "/thumbnail.webp",
+          content: "/thumbnail.jpg",
         },
         {
           property: "og:description",
