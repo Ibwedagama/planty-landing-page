@@ -11,6 +11,7 @@
     <div class="flex">
       <button
         class="group flex h-6 w-6 items-center justify-center rounded-full border border-black md:h-12 md:w-12"
+        aria-label="Previous Button"
         @click="swiper.slidePrev()"
       >
         <BaseIcon
@@ -21,6 +22,7 @@
       </button>
       <button
         class="group ml-6 flex h-6 w-6 items-center justify-center rounded-full border border-black md:ml-3 md:h-12 md:w-12"
+        aria-label="Next Button"
         @click="swiper.slideNext()"
       >
         <BaseIcon
