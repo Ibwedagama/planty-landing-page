@@ -1,7 +1,7 @@
 <template>
   <header class="">
-    <div
-      class="container mx-auto flex min-h-[47px] items-center justify-between px-4 pt-6 md:min-h-[93px] xl:px-0"
+    <BaseContainer
+      class="flex min-h-[47px] items-center justify-between pt-6 md:min-h-[93px]"
     >
       <NuxtLink to="/">
         <img
@@ -57,7 +57,7 @@
           </li>
         </ul>
       </nav>
-    </div>
+    </BaseContainer>
   </header>
 </template>
 
