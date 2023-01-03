@@ -8,13 +8,13 @@
         @swiper="onSwiper"
       >
         <swiper-slide v-for="item in state.processItems" :key="item.id">
-          <div class="h-[300px] w-full md:h-[550px]">
+          <picture class="h-[300px] w-full md:h-[550px]">
             <img
               :src="item.image"
               :alt="item.label"
               class="h-full w-full object-cover object-center"
             />
-          </div>
+          </picture>
         </swiper-slide>
         <template #container-end>
           <HomepagePlantProcessActions :items="state.processItems" />
@@ -23,7 +23,7 @@
     </BaseContainer>
 
     <div
-      class="relative -top-32 flex h-[170px] w-full items-end bg-gray-200 py-5 md:-top-[300px] md:h-[350px] md:py-14 xl:-top-[350px] xl:h-[436px]"
+      class="relative -top-32 flex h-[170px] w-full items-end bg-gray-100 py-5 md:-top-[300px] md:h-[350px] md:py-14 xl:-top-[350px] xl:h-[436px]"
     />
   </section>
 </template>
