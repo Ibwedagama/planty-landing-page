@@ -9,6 +9,7 @@
       >
         <swiper-slide v-for="item in state.processItems" :key="item.id">
           <picture class="h-[300px] w-full md:h-[550px]">
+            <source media="(min-width:768px)" :srcset="item.imageDekstop" />
             <img
               :src="item.image"
               :alt="item.label"

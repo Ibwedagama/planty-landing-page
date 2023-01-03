@@ -25,17 +25,20 @@ export const PLANT_PROCESS_IMAGES = [
   {
     id: 1,
     label: "We put everything together",
-    image: "/image/process-1.jpg",
+    image: "/image/process-1.webp",
+    imageDekstop: "/image/process-1-desktop.webp",
   },
   {
     id: 2,
     label: "Choosing only the best",
-    image: "/image/process-2.jpg",
+    image: "/image/process-2.webp",
+    imageDekstop: "/image/process-2-desktop.webp",
   },
   {
     id: 3,
     label: "And bring them to you",
-    image: "/image/process-3.jpg",
+    image: "/image/process-3.webp",
+    imageDekstop: "/image/process-3-desktop.webp",
   },
 ];
 
