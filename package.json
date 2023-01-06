@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "daisyui": "^2.46.1",
+    "gsap": "^3.11.4",
     "swiper": "^8.4.5"
   }
 }

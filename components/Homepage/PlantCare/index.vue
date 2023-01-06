@@ -1,12 +1,14 @@
 <template>
-  <section class="py-7 md:grid md:grid-cols-2 md:gap-10 md:py-10 xl:py-20">
+  <section
+    class="plant-care py-7 md:grid md:grid-cols-2 md:gap-10 md:py-10 xl:py-20"
+  >
     <p
-      class="mt-2 mb-4 text-center text-sm md:text-left md:text-lg xl:text-2xl xl:leading-normal"
+      class="plant-care__subtitle mt-2 mb-4 text-center text-sm md:text-left md:text-lg xl:text-2xl xl:leading-normal"
     >
       Each houseplant set is handled quickly and safely before being sent to
       your destination in specially designed insulated packaging.
     </p>
-    <div>
+    <div class="plant-care__cta">
       <p
         class="mb-7 text-center font-lora text-xl md:text-left md:text-2xl lg:leading-normal xl:text-4xl xl:leading-relaxed"
       >
