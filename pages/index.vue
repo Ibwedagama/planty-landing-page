@@ -30,7 +30,9 @@ definePageMeta({
 });
 
 function heroTimeline() {
-  const tl = gsap.timeline();
+  const tl = gsap.timeline({
+    delay: 0.5,
+  });
 
   tl.from(".hero__banner", {
     clipPath: "polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%)",
