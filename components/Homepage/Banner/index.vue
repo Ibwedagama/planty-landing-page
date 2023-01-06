@@ -7,7 +7,7 @@
       <img
         src="/image/banner-1.webp"
         alt="a table full of plants near a window"
-        class="h-full w-full object-cover object-center"
+        class="h-full w-full bg-gray-50 object-cover object-center"
         loading="lazy"
       />
     </picture>
@@ -16,7 +16,7 @@
       <img
         src="/image/banner-2.webp"
         alt="a man holding a plant"
-        class="h-full w-full object-cover object-center"
+        class="h-full w-full bg-gray-50 object-cover object-center"
         loading="lazy"
       />
     </picture>
@@ -27,7 +27,7 @@
       <img
         src="/image/banner-3.webp"
         alt="three house plants with different colors in front of white wall"
-        class="h-full w-full object-cover object-center"
+        class="h-full w-full bg-gray-50 object-cover object-center"
         loading="lazy"
       />
       <div class="absolute inset-0 px-6 py-4 md:py-6 lg:px-28 lg:py-16">
