@@ -7,12 +7,12 @@
       your destination in specially designed insulated packaging.
     </p>
     <div>
-      <h2
+      <p
         class="mb-7 text-center font-lora text-xl md:text-left md:text-2xl lg:leading-normal xl:text-4xl xl:leading-relaxed"
       >
         Learn how we take care of your plant at every stage of its journey from
         our greenhouse to your home.
-      </h2>
+      </p>
       <BaseButtonPaddingless class="group mx-auto md:mx-0">
         <p>LEARN MORE</p>
         <div
