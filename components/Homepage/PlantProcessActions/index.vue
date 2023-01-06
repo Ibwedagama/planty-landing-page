@@ -38,9 +38,18 @@ import { useSwiper } from "swiper/vue";
 
 const swiper = useSwiper();
 
-interface Props {
-  items: any;
+interface Item {
+  id: number;
+  label: string;
+  image: string;
+  imageDekstop: string;
 }
 
-const props = defineProps<Props>();
+interface Props {
+  items: Item[];
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  items: () => [],
+});
 </script>
